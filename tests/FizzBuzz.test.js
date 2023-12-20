@@ -10,6 +10,14 @@ describe("Test que valida los multiplos de 3 y 5", () => {
       expect(respuesta_recibida).toBe(respuesta_esperada);
     };
   
+    test("Test devuelve el mismo numero ingresado cuando no es divisible por 3 y 5", () => {
+      runTest(11, 11);
+    });
+
+    test("Test devuelve FizzBuzz cuando divisible por 3 y 5", () => {
+      runTest(15, "FizzBuzz");
+    });
+
     test("Test devuelve Fizz cuando divisible por 3", () => {
       runTest(3, "Fizz");
     });
@@ -18,11 +26,5 @@ describe("Test que valida los multiplos de 3 y 5", () => {
       runTest(5, "Buzz");
     });
   
-    test("Test devuelve FizzBuzz cuando divisible por 3 y 5", () => {
-      runTest(15, "FizzBuzz");
-    });
-  
-    test("Test devuelve el mismo numero ingresado cuando no es divisible por 3 y 5", () => {
-      runTest(11, 11);
-    });
+    
   });
