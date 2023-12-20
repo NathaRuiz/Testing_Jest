@@ -26,5 +26,4 @@ describe("Test que valida los multiplos de 3 y 5", () => {
       runTest(5, "Buzz");
     });
   
-    
   });
