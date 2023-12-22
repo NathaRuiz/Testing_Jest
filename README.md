@@ -4,6 +4,11 @@
 The objective of this Kata is to familiarise you with the concepts of testing and TDD.
 Follow the instructions in this shared [link](https://www.codurance.com/es/katas/fizzbuzz)
 
+## Process 
+### Tecnologies
+For this project I used the technologies requested:
+
+ <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,jest,)](https://skillicons.dev"/>
 
 ## Installations Steps
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository.
